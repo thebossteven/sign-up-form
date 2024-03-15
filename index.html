@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/odin.png" alt="top-logo">
+            <h1 class="logo-text">ODIN</h1>
+        </div>
+    </div>
+
+    <div class="main">
+        <h2 class="op-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+        <h2 class="op-text">You <em>know</em> you want to.</h2>
+
+        <div class="form-div">
+            <h2 class="form-title">Let's do this!</h2>
+            <div class="form-container">
+                <form action="httjoi" method="post">
+                    <div class="name-row">
+                        <label for="first-name">First Name:
+                        <input type="text" id="first-name" name="first_name" required/></label>
+                        <label for="last-name">Last Name:
+                        <input type="text" id="last-name" name="last_name" required/></label>
+                    </div>
+                    <div class="contact-row">
+                        <label for="email">Email:
+                        <input type="email" id="mail" name="email" required/></label>
+                        <label for="phone">Phone Number:
+                        <input type="number" id="phone" name="phone_number"required/></label>
+                    </div>
+                    <div class="password-row">
+                        <label for="password">Password:
+                        <input  type="password" class="error" id="password" name="password" required/></label>
+                        <label for="password-confirm">Confirm Password:
+                        <input type="password" class="error" id="password-confirm" name="password_confirmed"required/>
+                        <span id = "match" style="color:red" class="hidden">passwords must match</span> <br><br>  </label>
+                    </div>
+            </div>
+        </div>
+        <button type="submit">Create an Account</button>
+    </form>
+    <p class="log-in">Already have an account? <a href="">Log in!</a></p>
+
+
+
+    </div>
+    
+</body>
+</html>

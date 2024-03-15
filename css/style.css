@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0vh;
+    width: max(20rem,35%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+background-image: url("/../img/leaf.jpg");
+background-size: cover;
+background-color: #cccccc;
+}
+
+.logo{
+    background-color: #424542;
+    opacity: 70%;
+    position: relative;
+    top: 20vh;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 8rem;
+    margin-top: 0.8rem;
+    
+}
+
+.logo-text{
+    color: white;
+    font-size: 4rem;
+    
+
+}
+
+.main{
+    position: relative;
+    left: 35%;
+    width: max(20rem,65%);
+    height: 100%;
+    background-color:#fcfeff;
+    padding-top: 3rem;
+}
+
+.form-div{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.op-text{
+    margin-left: 5rem;
+    font-size: 1.1rem;
+    
+}
+
+.form-title{
+    margin-left: 5rem;
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    
+}
+label{
+   color: #7a7c7d;
+   font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.name-row, .contact-row, .password-row{
+    display: flex;
+    gap: 5rem;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-radius: 5px;
+    width: max(8rem, 150%);
+}
+
+button{
+    color: white;
+    background-color: #596D48;
+    margin-left: 5rem;
+    margin-top: 1.7rem;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+
+a{
+    color: #346930;
+}
+
+.log-in{
+    margin-left: 5rem;
+    font-size: 0.9rem;
+}
+
+.hidden{
+font-size: 0px;
+}
+
+.error{
+    border-color: red;
+}
